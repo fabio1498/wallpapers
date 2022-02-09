@@ -141,10 +141,13 @@ footer a {
   }
   .wallpaper1 img {
     width: 90vw;
-    height: 70vh;
+    height: 80vh;
   }
   .wallpaper2 img {
     width: 90vw;
-    height: 70vh;
+    height: 80vh;
+  }
+  .info {
+    width: 90vw;
   }
 }
