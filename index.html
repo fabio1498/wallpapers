@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Wallpapers</title>
+    <meta name="description" content="Wallpapers" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-main">
+      <h1>Wallpapers</h1>
+
+      <div class="wallpapers-container">
+        <div class="wallpaper1">
+          <img src="assets/img/IMG_0100.jpg" />
+          <div class="info">
+            <div class="caption"><p>Summer sunset</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Summer_sunset.jpg" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper2">
+          <img src="assets/img/IMG_0070.JPG" />
+          <div class="info mountains">
+            <div class="caption"><p>Sunset through mountains</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Sunset_through_mountains.JPG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper1">
+          <img src="assets/img/IMG_0138.JPG" />
+          <div class="info northern-lights">
+            <div class="caption"><p>Northern lights</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Northern_lights.JPG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper2">
+          <img src="assets/img/IMG_0183.JPG" />
+          <div class="info desert">
+            <div class="caption"><p>Desert moonlight</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Desert_moonlight.JPG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper1 reveal">
+          <img src="assets/img/IMG_0103.JPG" />
+          <div class="info space-jet">
+            <div class="caption"><p>Space jet and planets</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Space_jet_and_planets.JPG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper2 reveal">
+          <img src="assets/img/IMG_0175.JPG" />
+          <div class="info vaporwave">
+            <div class="caption"><p>Vaporwave city</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Vaporwave_city.JPG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper1 reveal">
+          <img src="assets/img/IMG_0080.JPG" />
+          <div class="info flying">
+            <div class="caption"><p>Flying in the sky</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Flying_in_the_sky.JPG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="wallpaper2 reveal">
+          <img src="assets/img/IMG_0083.JPEG" />
+          <div class="info skyscrapers">
+            <div class="caption"><p>Skyscrapers afternoon</p></div>
+            <div class="download-buttons">
+              <a href="assets/downloads/Skyscrapers_afternoon.JPEG" download
+                >Download here</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="credits">
+        <p>
+          Feel free to download and use my wallpapers for a personal use.<br />If
+          you wanna use my wallpapers on your website, Instagram page or app,
+          please contact me:
+          <a href="@mailto:cocozzafabio@outlook.it">cocozzafabio@outlook.it</a>
+        </p>
+      </div>
+      <footer>
+        <div class="footer-information">
+          <p>Made with ❤️ by Fabio Cocozza ~</p>
+          <a
+            href="https://www.linkedin.com/in/fabio-cocozza1498-/"
+            target="_blank"
+            ><img
+              src="https://img.icons8.com/ios-glyphs/20/ffffff/linkedin.png"
+          /></a>
+          <a
+            href="https://www.instagram.com/unknown.designer_/"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/20/ffffff/instagram-new--v1.png"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      window.addEventListener("scroll", reveal);
+
+      function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+          var windowheight = window.innerHeight;
+          var revealtop = reveals[i].getBoundingClientRect().top;
+          var revealpoint = 150;
+
+          if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
