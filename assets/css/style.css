@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Montserrat", sans-serif;
   background-color: rgb(17, 17, 17);
@@ -20,8 +24,14 @@ body {
   width: 100%;
 }
 .container-main h1 {
-  color: rgb(226, 226, 226);
+  color: white;
   font-size: 50px;
+}
+.container-main h2 {
+  color: rgb(207, 207, 207);
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 /*Hand animation */
 .hand {
@@ -62,7 +72,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
   width: 100%;
   flex-wrap: wrap;
 }
@@ -111,6 +120,8 @@ body {
   position: relative;
   color: white;
   font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .download-buttons {
   margin-bottom: 10px;
@@ -138,8 +149,12 @@ body {
   border-top-right-radius: 30px;
 }
 .credits {
+  margin-top: 20px;
   color: white;
   text-align: center;
+  font-size: 14px;
+  width: 50%;
+  line-height: 1.8;
 }
 .credits a {
   text-decoration: none;
@@ -147,6 +162,8 @@ body {
   font-weight: 600;
 }
 footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
 }
 footer a {
