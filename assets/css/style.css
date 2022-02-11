@@ -32,6 +32,7 @@ body {
   margin-bottom: 20px;
   font-weight: 400;
   text-align: center;
+  font-size: 20px;
 }
 /*Hand animation */
 .hand {
@@ -90,13 +91,18 @@ body {
 }
 .info {
   text-align: center;
-  background-color: #401564;
   width: 450px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+.summer-sunset {
+  background-color: #401564;
+}
 .mountains {
   background-color: #28489b;
+}
+.autumn {
+  background-color: #fe9637;
 }
 .northern-lights {
   background-color: #54d79a;
