@@ -92,7 +92,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .wallpaper1 h4 {
   position: absolute;
@@ -113,7 +113,7 @@ body {
 }
 .info {
   text-align: center;
-  width: 450px;
+  width: 300px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
@@ -129,8 +129,8 @@ body {
 .sunset-on-the-river {
   background-color: #fcc143;
 }
-.northern-lights {
-  background-color: #54d79a;
+.lovely-sunset {
+  background-color: #e25065;
 }
 .desert {
   background-color: #c88666;
@@ -168,14 +168,10 @@ body {
 }
 
 .wallpaper1 img {
-  width: 450px;
-  height: 800px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-}
-.wallpaper2 img {
-  width: 450px;
-  height: 850px;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
