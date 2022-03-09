@@ -220,14 +220,14 @@ footer a {
     align-items: center;
   }
   .wallpaper1 img {
-    width: 90vw;
-    height: 80vh;
+    width: 70vw;
+    height: 40vh;
   }
   .wallpaper2 img {
     width: 90vw;
     height: 80vh;
   }
   .info {
-    width: 90vw;
+    width: 70vw;
   }
 }
