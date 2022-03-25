@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: rgb(8, 8, 8);
 }
 .reveal {
@@ -122,6 +122,12 @@ body {
 }
 .mountains {
   background-color: #28489b;
+}
+.hawaii {
+  background-color: #1f0630;
+}
+.airplane {
+  background-color: #966cde;
 }
 .autumn {
   background-color: #fe9637;
